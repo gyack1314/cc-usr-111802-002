@@ -1,0 +1,261 @@
+{
+  "known_at": [
+    "2026-08-01T00:00:00+00:00",
+    "2026-08-20T00:00:00+00:00",
+    "2026-09-01T00:00:00+00:00"
+  ],
+  "documents": [
+    {
+      "source": "潮位预报",
+      "document_id": "tide-r1",
+      "revision": "r1",
+      "received_at": "2026-07-30T00:00:00+00:00",
+      "records": [
+        {
+          "kind": "tide",
+          "id": "tide-1a",
+          "revision": "r1",
+          "valid_from": "2026-08-02",
+          "valid_to": "2026-08-04",
+          "payload": {
+            "metric": "flood",
+            "region": "lowland-A",
+            "unit": "m",
+            "height_m": 3.2
+          }
+        },
+        {
+          "kind": "tide",
+          "id": "tide-1b",
+          "revision": "r1",
+          "valid_from": "2026-08-06",
+          "valid_to": "2026-08-06",
+          "payload": {
+            "metric": "flood",
+            "region": "lowland-A",
+            "unit": "m",
+            "height_m": 2.4
+          }
+        },
+        {
+          "kind": "tide",
+          "id": "tide-2",
+          "revision": "r1",
+          "valid_from": "2026-08-03",
+          "valid_to": "2026-08-03",
+          "payload": {
+            "metric": "flood",
+            "region": "lowland-B",
+            "unit": "m",
+            "height_m": 2.2
+          }
+        },
+        {
+          "kind": "tide",
+          "id": "tide-c",
+          "revision": "r1",
+          "valid_from": "2026-08-02",
+          "valid_to": "2026-08-04",
+          "payload": {
+            "metric": "flood",
+            "region": "lowland-C",
+            "unit": "m",
+            "height_m": 1.5
+          }
+        }
+      ]
+    },
+    {
+      "source": "雨量预报",
+      "document_id": "rain-r1",
+      "revision": "r1",
+      "received_at": "2026-07-30T00:00:00+00:00",
+      "records": [
+        {
+          "kind": "rainfall",
+          "id": "rain-1",
+          "revision": "r1",
+          "valid_from": "2026-08-02",
+          "valid_to": "2026-08-04",
+          "payload": {
+            "metric": "flood",
+            "region": "lowland-A",
+            "unit": "m",
+            "depth_mm": 180
+          }
+        },
+        {
+          "kind": "rainfall",
+          "id": "rain-c",
+          "revision": "r1",
+          "valid_from": "2026-08-02",
+          "valid_to": "2026-08-04",
+          "payload": {
+            "metric": "flood",
+            "region": "lowland-C",
+            "unit": "m",
+            "depth_mm": 150
+          }
+        }
+      ]
+    },
+    {
+      "source": "排水部门",
+      "document_id": "drainage-r1",
+      "revision": "r1",
+      "received_at": "2026-07-31T00:00:00+00:00",
+      "records": [
+        {
+          "kind": "drainage",
+          "id": "drain-1",
+          "revision": "r1",
+          "valid_from": "2026-08-02",
+          "valid_to": "2026-08-31",
+          "payload": {
+            "metric": "flood",
+            "region": "lowland-A",
+            "unit": "m",
+            "capacity_mm_per_day": 45
+          }
+        },
+        {
+          "kind": "drainage",
+          "id": "drain-c",
+          "revision": "r1",
+          "valid_from": "2026-08-02",
+          "valid_to": "2026-08-31",
+          "payload": {
+            "metric": "flood",
+            "region": "lowland-C",
+            "unit": "m",
+            "capacity_mm_per_day": 45
+          }
+        }
+      ]
+    },
+    {
+      "source": "业务部门",
+      "document_id": "street-rule",
+      "revision": "r1",
+      "received_at": "2026-07-28T00:00:00+00:00",
+      "records": [
+        {
+          "kind": "threshold",
+          "id": "street-A",
+          "revision": "r1",
+          "valid_from": "2026-07-01",
+          "valid_to": "2026-12-31",
+          "payload": {
+            "metric": "flood",
+            "region": "lowland-A",
+            "unit": "m",
+            "threshold_mm": 20,
+            "tide_base_m": 2.0,
+            "tide_block_m": 3.5,
+            "action": "组织避险"
+          }
+        },
+        {
+          "kind": "threshold",
+          "id": "street-B",
+          "revision": "r1",
+          "valid_from": "2026-07-01",
+          "valid_to": "2026-12-31",
+          "payload": {
+            "metric": "flood",
+            "region": "lowland-B",
+            "unit": "m",
+            "threshold_mm": 20,
+            "tide_base_m": 2.0,
+            "tide_block_m": 3.5,
+            "action": "组织避险"
+          }
+        },
+        {
+          "kind": "threshold",
+          "id": "street-C",
+          "revision": "r1",
+          "valid_from": "2026-07-01",
+          "valid_to": "2026-12-31",
+          "payload": {
+            "metric": "flood",
+            "region": "lowland-C",
+            "unit": "m",
+            "threshold_mm": 20,
+            "tide_base_m": 2.0,
+            "tide_block_m": 3.5,
+            "action": "组织避险"
+          }
+        }
+      ]
+    },
+    {
+      "source": "潮位预报",
+      "document_id": "tide-r2",
+      "revision": "r2",
+      "received_at": "2026-08-10T00:00:00+00:00",
+      "records": [
+        {
+          "kind": "tide",
+          "id": "tide-1a",
+          "revision": "r2",
+          "valid_from": "2026-08-02",
+          "valid_to": "2026-08-04",
+          "payload": {
+            "metric": "flood",
+            "region": "lowland-A",
+            "unit": "m",
+            "height_m": 3.9
+          }
+        },
+        {
+          "kind": "tide",
+          "id": "tide-1b",
+          "revision": "r2",
+          "valid_from": "2026-08-06",
+          "valid_to": "2026-08-06",
+          "payload": {
+            "metric": "flood",
+            "region": "lowland-A",
+            "unit": "m",
+            "height_m": 2.4
+          }
+        }
+      ]
+    },
+    {
+      "source": "排水部门",
+      "document_id": "drainage-r2",
+      "revision": "r2",
+      "received_at": "2026-08-25T00:00:00+00:00",
+      "records": [
+        {
+          "kind": "drainage",
+          "id": "drain-1",
+          "revision": "r2",
+          "valid_from": "2026-08-02",
+          "valid_to": "2026-08-31",
+          "payload": {
+            "metric": "flood",
+            "region": "lowland-A",
+            "unit": "m",
+            "capacity_mm_per_day": 90
+          }
+        },
+        {
+          "kind": "drainage",
+          "id": "drain-c",
+          "revision": "r2",
+          "valid_from": "2026-08-02",
+          "valid_to": "2026-08-31",
+          "payload": {
+            "metric": "flood",
+            "region": "lowland-C",
+            "unit": "m",
+            "capacity_mm_per_day": 10
+          }
+        }
+      ]
+    }
+  ]
+}
